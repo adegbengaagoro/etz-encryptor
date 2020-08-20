@@ -2,7 +2,7 @@
 
 Etz-Encryptor is a NodeJS package that allows you automatically generate the encrypted pin which you are to send with your Terminal ID when making your API calls to Etranzact's SwitchIT Infrastructure.
 
-You can also find the etz-encryptor package on NPM, click <a href="#">**HERE**</a>
+You can also find the etz-encryptor package on NPM, click <a href="https://www.npmjs.com/package/etz-encryptor" target="_blank">**HERE**</a>
 
 ### Installation
 
