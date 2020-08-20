@@ -28,13 +28,13 @@ This is where **etz-encryptor** comes in, it is focused on providing the same fu
 
 ### Usage
 
-1. Reference etz-encryptor in your project
+Reference etz-encryptor in your project
 
 ```javascript
 const etzEncryptor = require('etz-encryptor)
 ```
 
-2. Utilize any of the available methods
+Utilize any of the available methods
 
 ```javascript
 const encryptedPin = etzEncryptor.generateEncryptedTerminalPin(plainPin, etzSecretKey)
