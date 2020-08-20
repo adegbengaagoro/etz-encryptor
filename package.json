@@ -28,5 +28,8 @@
   "homepage": "https://github.com/adegbengaagoro/etz-encryptor#readme",
   "devDependencies": {
     "jest": "^26.4.0"
+  },
+  "dependencies": {
+    "is-base64": "^1.1.0"
   }
 }
