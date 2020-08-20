@@ -1,6 +1,6 @@
 {
   "name": "etz-encryptor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that allows you automatically generate the encrypted pin which you are to send with your Terminal ID when making your API calls to Etranzact's SwitchIT Infrastructure",
   "main": "index.js",
   "scripts": {
