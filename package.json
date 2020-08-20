@@ -1,0 +1,32 @@
+{
+  "name": "etz-encryptor",
+  "version": "1.0.0",
+  "description": "A package that allows you automatically generate the encrypted pin which you are to send with your Terminal ID when making your API calls to Etranzact's SwitchIT Infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adegbengaagoro/etz-encryptor.git"
+  },
+  "keywords": [
+    "Etranzact",
+    "SwitchIT",
+    "Terminal",
+    "Pin",
+    "Encryption",
+    "AES",
+    "NodeJS",
+    "Crypto"
+  ],
+  "author": "Agoro, Adegbenga. B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adegbengaagoro/etz-encryptor/issues"
+  },
+  "homepage": "https://github.com/adegbengaagoro/etz-encryptor#readme",
+  "devDependencies": {
+    "jest": "^26.4.0"
+  }
+}
