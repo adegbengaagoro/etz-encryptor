@@ -1,4 +1,4 @@
-const EtzEncryptor = require('../index.js')
+const EtzEncryptor = require('../index')
 
 const encryptorObject = EtzEncryptor
 const isAnObject = encryptorObject.constructor === Object
@@ -9,7 +9,6 @@ const generateEncryptedTerminalPin = encryptorObjectItems.find((item) => item ==
 const maskEncryptedTerminalPin = encryptorObjectItems.find((item) => item === 'maskEncryptedTerminalPin')
 const unmaskEncryptedTerminalPin = encryptorObjectItems.find((item) => item === 'unmaskEncryptedTerminalPin')
 
-// console.log('generateEncryptedTerminalPin => ', generateEncryptedTerminalPin)
 
 test('Expecting an Object called EtzEncryptor', () => {
   expect(isAnObject).toEqual(true)
