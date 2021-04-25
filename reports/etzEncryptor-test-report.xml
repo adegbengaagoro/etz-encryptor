@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/adegbengaagoro/Projects/Dev/2020/personal/npm-packages/etz-encryptor/tests/index.test.js">
+    <testCase name="Expecting an Object called EtzEncryptor" duration="2"/>
+    <testCase name="EtzEncryptor Object must not be empty" duration="1"/>
+    <testCase name="Reference generateEncryptedTerminalPin module in EtzEncryptor Object" duration="1"/>
+    <testCase name="Reference maskEncryptedTerminalPin module in EtzEncryptor Object" duration="0"/>
+    <testCase name="Reference unmaskEncryptedTerminalPin module in EtzEncryptor Object" duration="0"/>
+  </file>
+  <file path="/Users/adegbengaagoro/Projects/Dev/2020/personal/npm-packages/etz-encryptor/tests/generateEncryptedTerminalPin.test.js">
+    <testCase name="generateEncryptedTerminalPin function must have arguments" duration="2"/>
+    <testCase name="generateEncryptedTerminalPin function must only take 2 arguments" duration="0"/>
+    <testCase name="generateEncryptedTerminalPin function must not return undefined " duration="1"/>
+    <testCase name="key16Bytes function must have arguments" duration="0"/>
+    <testCase name="key16Bytes function must only take 1 argument" duration="0"/>
+    <testCase name="key16Bytes function must not return null " duration="0"/>
+    <testCase name="key16Bytes function must not return undefined " duration="1"/>
+    <testCase name="key16Bytes function must return a 16 bytes string from etzSecretKey" duration="0"/>
+    <testCase name="isBase64 function must have arguments" duration="0"/>
+    <testCase name="isBase64 function must only take 1 argument" duration="1"/>
+    <testCase name="isBase64 function must not return null " duration="0"/>
+    <testCase name="isBase64 function must not return undefined " duration="1"/>
+    <testCase name="Encrypted Output is a base64 string" duration="0"/>
+  </file>
+</testExecutions>

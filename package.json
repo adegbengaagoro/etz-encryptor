@@ -4,7 +4,7 @@
   "description": "A package that allows you automatically generate the encrypted pin which you are to send with your Terminal ID when making your API calls to Etranzact's SwitchIT Infrastructure",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,13 @@
   },
   "dependencies": {
     "is-base64": "^1.1.0"
+  },
+  "jest": {
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "jestSonar": {
+    "reportPath": "reports",
+    "reportFile": "etzEncryptor-test-report.xml",
+    "indent": 2
   }
 }
