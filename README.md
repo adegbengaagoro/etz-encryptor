@@ -14,17 +14,19 @@ $ npm install etz-encryptor
 
 ### Context
 
-The etranzact SwitchIT infrastructure is an API for eTranzact's Corporate Payment Systems which when fully integrated allows clients to carry out funds trnasfer, perform utility bill payments, bulk transfers to recipients etc.
+The eTranzact SwitchIT infrastructure is an API designed for eTranzact's Corporate Payment Systems. When fully integrated, it enables clients to:
 
-In order to utilize the API, eTranzact will provide you with the following:
+Perform fund transfers
+Pay utility bills
+Execute bulk payments to multiple recipients
+To access the API, eTranzact provides the following credentials:
 
-- Terminal ID
-- A pin
-- A MasterKey for pin Encryption
+Terminal ID
+PIN
+MasterKey for PIN encryption
+Traditionally, eTranzact offers encryption references primarily for PHP, C#, and Java.
 
-Traditionally, eTranzact will give you encryption references but they are focused on PHP, C# and Java.
-
-This is where **etz-encryptor** comes in, it is focused on providing the same functionality to the NodeJS community
+This is where etz-encryptor comes in—it extends the same encryption functionality to the Node.js community, making it easier for developers to integrate with the SwitchIT infrastructure.
 
 ### Usage
 
@@ -63,9 +65,9 @@ Example:
 
 ### To Do
 
-This package is designed for projects where the need to input the pin every time is not an option, therefore it would be good to store the pin within the database.
+This package is designed for projects where manually entering the PIN each time is not practical. To streamline the process, storing the PIN securely in a database is recommended.
 
-It will be unwise to just save the encrypted pin in your database, thus the plan to create the following additional methods:
+However, simply saving the encrypted PIN in the database is not advisable. To enhance security, the following additional methods are planned:
 
 - **maskEncryptedTerminalPin** (An encryption action to further hide the real Encrypted Pin)
 - **unmaskEncryptedTerminalPin** (An encryption action to decrypt the data)
